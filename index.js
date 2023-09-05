@@ -1,7 +1,6 @@
-var output = [];
-
-function fibonacciSequence(count) {
-    var count;
+function fibonacciSequence() {
+    var output = [];
+    var count = parseInt(prompt("Enter a number: "));
     if (count == 1) {
         output.push(0);
         console.log(output);
@@ -19,5 +18,4 @@ function fibonacciSequence(count) {
     }
 }
 
-var count = parseInt(prompt("Enter a number: "));
-fibonacciSequence(count);
+fibonacciSequence();
