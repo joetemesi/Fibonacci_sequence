@@ -6,6 +6,7 @@ function fibonacciSequence() {
         console.log(output);
     } else if (count == 2) {
         output.push (0,1);
+        console.log(output);
     } else if (count == output.length) {
         console.log(output);
     } else if (count >= 3) {
