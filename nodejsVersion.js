@@ -11,11 +11,11 @@ function fibonacciSequence(count) {
     output.push(0);
     console.log(output);
   } else if (count == 2) {
-    output.push(0, 1);
+    output.push(0, 1); 
     console.log(output);
   } else if (count >= 3) {
-    output.push(0, 1);
-    for (let arrayElements = 2; arrayElements < count; arrayElements++) {
+    output.push(0, 1); ////initializes array if count is more than 2
+    for (let arrayElements = 2; arrayElements < count; arrayElements++) { // loop to add summation of last and second last elements to the array until elements = count
       const nthElement = output[output.length - 1] + output[output.length - 2];
       output.push(nthElement);
     }
